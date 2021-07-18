@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+    api.backendchallenge.ecommerce:
+        image: ${DOCKER_REGISTRY-}apibackendchallengeecommerce
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            - URL_GRPC_DISCOUNT=http://localhost:50051/
+            - BLACK_FRIDAY_DAY="07-18"  #Formato MM-dd
+        

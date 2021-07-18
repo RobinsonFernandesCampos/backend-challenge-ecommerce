@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/Discount.cs \
+obj\Debug\netcoreapp3.1/DiscountGrpc.cs: ../../../../hiring-master/challenges/pt-br/new-backend-challenge/discount.proto

@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Robinson\\Desafio_Hash\\Projeto\\backend-challenge-ecommerce\\app\\Api.BackendChallenge.Ecommerce\\Api.BackendChallenge.Ecommerce.csproj": {}
+  },
+  "projects": {
+    "C:\\Robinson\\Desafio_Hash\\Projeto\\backend-challenge-ecommerce\\app\\Api.BackendChallenge.Ecommerce\\Api.BackendChallenge.Ecommerce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Robinson\\Desafio_Hash\\Projeto\\backend-challenge-ecommerce\\app\\Api.BackendChallenge.Ecommerce\\Api.BackendChallenge.Ecommerce.csproj",
+        "projectName": "Api.BackendChallenge.Ecommerce",
+        "projectPath": "C:\\Robinson\\Desafio_Hash\\Projeto\\backend-challenge-ecommerce\\app\\Api.BackendChallenge.Ecommerce\\Api.BackendChallenge.Ecommerce.csproj",
+        "packagesPath": "C:\\Users\\robinson.campos\\.nuget\\packages\\",
+        "outputPath": "C:\\Robinson\\Desafio_Hash\\Projeto\\backend-challenge-ecommerce\\app\\Api.BackendChallenge.Ecommerce\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\robinson.campos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.credz.com.br/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/credz-devops/Arquitetura/_packaging/packages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/credz-devops/Arquitetura/_packaging/symbols/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
