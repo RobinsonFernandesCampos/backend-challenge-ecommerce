@@ -13,3 +13,18 @@ C:\Robinson\Desafio Hash\Projeto\BackendChallenge.Ecommerce\app\Api.BackendChall
 C:\Robinson\Desafio Hash\Projeto\BackendChallenge.Ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\docker-compose.dcprojAssemblyReference.cache
 C:\Robinson\Desafio Hash\Projeto\BackendChallenge.Ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Robinson\Desafio Hash\Projeto\BackendChallenge.Ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\appsettings.Development.json
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\appsettings.json
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Data\Object\products.json
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Api.BackendChallenge.Ecommerce.exe
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Api.BackendChallenge.Ecommerce.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Google.Protobuf.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Grpc.Core.Api.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Grpc.Net.Client.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Grpc.AspNetCore.Server.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Newtonsoft.Json.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Grpc.Net.Common.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\Api.BackendChallenge.Ecommerce.pdb
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\docker-compose.dcproj.CopyComplete

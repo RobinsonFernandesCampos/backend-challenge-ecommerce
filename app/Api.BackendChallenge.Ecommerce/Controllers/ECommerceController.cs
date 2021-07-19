@@ -56,9 +56,8 @@ namespace Api.BackendChallenge.Ecommerce.Controllers
 
             try
             {
-
                 #region Laço para montagem do carrinho e seus respectivos descontos
-                
+
                 foreach (var productRequest in JsonConvert.DeserializeObject<ProductsRequest>(productsRequest.ToString()).products)
                 {
                     ProductResponse productResponse = new ProductResponse();
@@ -114,7 +113,8 @@ namespace Api.BackendChallenge.Ecommerce.Controllers
             }
             catch (Exception exc)
             {
-                throw;
+                _logger.LogError(exc, "Ocorreu um erro inesperado");
+                throw exc;
             }
         }
     }

@@ -3,7 +3,6 @@ services:
     build:
       context: C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce
       dockerfile: Dockerfile
-    command: docker run -p 50051:50051 hashorg/hash-mock-discount-service
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
@@ -16,4 +15,7 @@ services:
     volumes:
     - C:\Users\robinson.campos\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
     - C:\Users\robinson.campos\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  hashorg:
+    container_name: grpchash
+    image: hashorg/hash-mock-discount-service
 version: '3.4'

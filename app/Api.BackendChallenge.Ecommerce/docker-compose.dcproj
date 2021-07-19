@@ -4,8 +4,8 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <ProjectGuid>d1223ce7-6293-4f41-8be3-34d08504b287</ProjectGuid>
-    <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/weatherforecast</DockerServiceUrl>
+    <DockerLaunchAction>None</DockerLaunchAction>
+    <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/api/backendChallenge/eCommerce/carrinho</DockerServiceUrl>
     <DockerServiceName>api.backendchallenge.ecommerce</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>

@@ -7,14 +7,13 @@ services:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: Api.BackendChallenge.Ecommerce
       target: base
-    command: docker run -p 50051:50051 hashorg/hash-mock-discount-service
     container_name: Api.BackendChallenge.Ecommerce
     entrypoint: tail -f /dev/null
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       ASPNETCORE_URLS: https://+:443;http://+:80
-      BLACK_FRIDAY_DAY: '"07-18"'
+      BLACK_FRIDAY_DAY: 07-18
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
       NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
       URL_GRPC_DISCOUNT: http://localhost:50051/
@@ -38,4 +37,7 @@ services:
     - C:\Microsoft\Xamarin\NuGet:/root/.nuget/fallbackpackages:ro
     - C:\Users\robinson.campos\.nuget\packages:/root/.nuget/packages:ro
     - C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce:/src:rw
+  hashorg:
+    container_name: grpchash
+    image: hashorg/hash-mock-discount-service
 version: '3.4'

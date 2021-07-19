@@ -2,6 +2,7 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "launchBrowser": false,
     "iisExpress": {
       "applicationUrl": "http://localhost:60893",
       "sslPort": 44323
@@ -19,7 +20,6 @@
     },
     "Api.BackendChallenge.Ecommerce": {
       "commandName": "Project",
-      "launchBrowser": false,
       "launchUrl": "api-backendChallenge-ecommerce",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -28,6 +28,7 @@
     },
     "Docker": {
       "commandName": "Docker",
+	    "launchBrowser": false,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api-backendChallenge-ecommerce",
       "publishAllPorts": true,
       "useSSL": false
