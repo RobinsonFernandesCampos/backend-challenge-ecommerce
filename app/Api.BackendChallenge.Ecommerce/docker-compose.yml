@@ -7,9 +7,10 @@ services:
             context: .
             dockerfile: Dockerfile
         environment:
-            - URL_GRPC_DISCOUNT=http://localhost:50051/
-            - BLACK_FRIDAY_DAY=07-18  #Formato MM-dd
+            - URL_GRPC_DISCOUNT=http://192.168.0.224:50051/
+            - BLACK_FRIDAY_DAY=07-19  #Formato MM-dd
     hashorg:
         image:  hashorg/hash-mock-discount-service
         container_name: grpchash
-             
+        ports:
+            - "50051:50051"

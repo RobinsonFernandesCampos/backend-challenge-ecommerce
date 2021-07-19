@@ -1,9 +1,6 @@
 ﻿using Grpc.Net.Client;
 using Discount;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using static Discount.Discount;
 using Microsoft.Extensions.Configuration;
 
@@ -15,6 +12,7 @@ namespace Api.BackendChallenge.Ecommerce.gRPCService
 
         public DiscountService(IConfiguration configuration)
         {
+            AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
             this.configuration = configuration;
         }
 

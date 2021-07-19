@@ -27,6 +27,10 @@ C:\Robinson\Desafio Hash\Projeto\BackendChallenge.Ecommerce\app\Api.BackendChall
 C:\Robinson\Desafio Hash\Projeto\BackendChallenge.Ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.dll
 C:\Robinson\Desafio Hash\Projeto\BackendChallenge.Ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.pdb
 C:\Robinson\Desafio Hash\Projeto\BackendChallenge.Ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.genruntimeconfig.cache
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.AssemblyInfoInputs.cache
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.AssemblyInfo.cs
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.csproj.CoreCompileInputs.cache
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.MvcApplicationPartsAssemblyInfo.cache
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\Data\Object\products.json
@@ -43,11 +47,10 @@ C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChal
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\Grpc.Net.ClientFactory.dll
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.AssemblyInfoInputs.cache
-C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.AssemblyInfo.cs
-C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.csproj.CoreCompileInputs.cache
-C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\staticwebassets\Api.BackendChallenge.Ecommerce.StaticWebAssets.Manifest.cache
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\staticwebassets\Api.BackendChallenge.Ecommerce.StaticWebAssets.xml
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\scopedcss\bundle\Api.BackendChallenge.Ecommerce.styles.css
@@ -56,6 +59,4 @@ C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChal
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.dll
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.pdb
 C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.genruntimeconfig.cache
-C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\System.Web.Http.dll
-C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce\obj\Debug\netcoreapp3.1\Api.BackendChallenge.Ecommerce.csprojAssemblyReference.cache

@@ -1,0 +1,21 @@
+services:
+  api.backendchallenge.ecommerce:
+    build:
+      context: C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      BLACK_FRIDAY_DAY: 07-18
+      URL_GRPC_DISCOUNT: http://5000:50051/
+    image: apibackendchallengeecommerce
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\robinson.campos\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\robinson.campos\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  hashorg:
+    container_name: grpchash
+    image: hashorg/hash-mock-discount-service
+version: '3.4'

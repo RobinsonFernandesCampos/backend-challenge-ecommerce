@@ -22,13 +22,13 @@ namespace Api.BackendChallenge.Ecommerce.Controllers
     [Route("api/backendChallenge/eCommerce")]
     public class ECommerceController : ControllerBase
     {
-        private readonly ILogger<ECommerceController> _logger;
+        private readonly ILogger<ECommerceController> logger;
         private List<ProductObject> productsRegister;
         private IConfiguration configuration;
 
         public ECommerceController(ILogger<ECommerceController> logger, IConfiguration configuration)
         {
-            _logger = logger;
+            this.logger = logger;
             this.configuration = configuration;
 
             productsRegister = new DataProductsService().Get();
@@ -72,22 +72,24 @@ namespace Api.BackendChallenge.Ecommerce.Controllers
                     cartResponse.total_amount += productRegister.amount * productRequest.quantity;
 
                     // Somente aplica desconto concedidos acima de 0
+                    float valorDescontoProduto = 0;
                     if (discount != 0)
                     {
-                        cartResponse.total_amount_with_discount += productRegister.amount * productRequest.quantity * (discount / 100);
-                        cartResponse.total_discount += discount;
+                        valorDescontoProduto = float.Parse(Math.Round(productRegister.amount * discount).ToString());
+                        cartResponse.total_discount += valorDescontoProduto;
                     }
 
                     // Atribuições do produto
                     productResponse.id = productRequest.id;
                     productResponse.unit_amount = productRegister.amount;
-                    productResponse.discount = discount != 0 ? discount : 0;
+                    productResponse.discount = valorDescontoProduto;
                     productResponse.quantity = productRequest.quantity;
                     productResponse.total_amount = productRegister.amount * productRequest.quantity;
 
                     // Adiciona produto ao carrinho
                     cartResponse.products.Add(productResponse);
                 }
+                cartResponse.total_amount_with_discount += cartResponse.total_amount - cartResponse.total_discount;
 
                 #endregion
 
@@ -103,8 +105,8 @@ namespace Api.BackendChallenge.Ecommerce.Controllers
                         discount = 0,
                         is_gift = productGift.is_gift,
                         quantity = 1,
-                        unit_amount = productGift.amount,
-                        total_amount = productGift.amount
+                        unit_amount = 0,
+                        total_amount = 0
                     });
                 }
                 #endregion 
@@ -113,7 +115,7 @@ namespace Api.BackendChallenge.Ecommerce.Controllers
             }
             catch (Exception exc)
             {
-                _logger.LogError(exc, "Ocorreu um erro inesperado");
+                logger.LogError(exc, "Ocorreu um erro inesperado");
                 throw exc;
             }
         }

@@ -1,0 +1,43 @@
+services:
+  api.backendchallenge.ecommerce:
+    build:
+      context: C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce
+      dockerfile: Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Api.BackendChallenge.Ecommerce
+      target: base
+    container_name: Api.BackendChallenge.Ecommerce
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      BLACK_FRIDAY_DAY: 07-18
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      URL_GRPC_DISCOUNT: https://localhost:50051/
+    image: apibackendchallengeecommerce:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp3.1/Api.BackendChallenge.Ecommerce.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    - target: 443
+    tty: true
+    volumes:
+    - C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce:/app:rw
+    - C:\Users\robinson.campos\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\robinson.campos\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\robinson.campos\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Microsoft\Xamarin\NuGet:/root/.nuget/fallbackpackages:ro
+    - C:\Users\robinson.campos\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce:/src:rw
+  hashorg:
+    container_name: grpchash
+    image: hashorg/hash-mock-discount-service
+version: '3.4'
