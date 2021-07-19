@@ -12,20 +12,19 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_api.backendchallenge.ecommerce$
     volumes:
       - C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce:/app
       - C:\Robinson\Desafio_Hash\Projeto\backend-challenge-ecommerce\app\Api.BackendChallenge.Ecommerce:/src
       - C:\Users\robinson.campos\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\robinson.campos\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Microsoft\Xamarin\NuGet\:/root/.nuget/fallbackpackages:ro
+#$nuget_volume_mapping_api.backendchallenge.ecommerce$
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/bin/Debug/netcoreapp3.1/Api.BackendChallenge.Ecommerce.dll\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_api.backendchallenge.ecommerce$ \"\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
