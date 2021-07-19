@@ -23,5 +23,47 @@ Desafio Hash
 9 - Clicar no botão Send \
 10 - Pronto, adorei o teste, me deparei com alguns pontos que precisei estudar para implementar, valeu a pena me diverti e aprendi mais algumas coisas.
 
-# Exemplo de resultado do teste feito em meu ambiente local
-![img](https://github.com/RobinsonFernandesCampos/backend-challenge-ecommerce/ExemploResultadoExecucao.png)
+# Exemplo de resultado em ambiente local
+![img](https://github.com/RobinsonFernandesCampos/backend-challenge-ecommerce/blob/main/ExemploResultadoExecucao.png)
+
+# Exemplo de Response Json 
+
+{
+    "total_amount": 383847,
+    "total_amount_with_discount": 375380,
+    "total_discount": 8467,
+    "products": [
+        {
+            "id": 1,
+            "quantity": 1,
+            "unit_amount": 15157,
+            "total_amount": 15157,
+            "discount": 758,
+            "is_gift": false
+        },
+        {
+            "id": 2,
+            "quantity": 2,
+            "unit_amount": 93811,
+            "total_amount": 187622,
+            "discount": 4691,
+            "is_gift": false
+        },
+        {
+            "id": 3,
+            "quantity": 3,
+            "unit_amount": 60356,
+            "total_amount": 181068,
+            "discount": 3018,
+            "is_gift": false
+        },
+        {
+            "id": 6,
+            "quantity": 1,
+            "unit_amount": 0,
+            "total_amount": 0,
+            "discount": 0,
+            "is_gift": true
+        }
+    ]
+}
