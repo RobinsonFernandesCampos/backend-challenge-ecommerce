@@ -6,7 +6,7 @@ Desafio Hash
 1 - .NET Core 3.1 \
 2 - IDE Visual Studio ou VS Code https://code.visualstudio.com/download \
 3 - POSTMAN  https://dl.pstmn.io/download/latest/win64 \
-5 - Docker Desktop https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe \
+5 - Docker Desktop https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe
 
 # Instruções para Teste
 
